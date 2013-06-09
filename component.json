@@ -13,12 +13,15 @@
     "whirlibulf/renderable-component": "*",
     "whirlibulf/color-component": "*",
     "whirlibulf/kinematics-system": "*",
-    "whirlibulf/velocity-component": "*"
+    "whirlibulf/velocity-component": "*",
+    "whirlibulf/keyboard-system": "*"
   },
   "development": {},
   "license": "MIT",
   "main": "index.js",
   "scripts": [
-    "index.js"
+    "index.js",
+    "objects/background.js",
+    "objects/player.js"
   ]
 }
