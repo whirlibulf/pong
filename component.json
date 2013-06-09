@@ -1,0 +1,24 @@
+{
+  "name": "pong",
+  "repo": "whirlibulf/pong",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "whirlibulf/engine": "*",
+    "whirlibulf/2d-canvas-system": "*",
+    "whirlibulf/stats.js-system": "*",
+    "whirlibulf/position-component": "*",
+    "whirlibulf/size-component": "*",
+    "whirlibulf/renderable-component": "*",
+    "whirlibulf/color-component": "*",
+    "whirlibulf/kinematics-system": "*",
+    "whirlibulf/velocity-component": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
