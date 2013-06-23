@@ -14,5 +14,8 @@ module.exports = {
     },
     "color": {
         "fill": "#D9F249"
+    },
+    "script": {
+        "scripts": [require("../lib/computer.js")]
     }
 };
