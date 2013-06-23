@@ -25,6 +25,7 @@
     "index.js",
     "objects/background.js",
     "objects/player.js",
+    "objects/computer.js",
     "lib/player.js"
   ]
 }

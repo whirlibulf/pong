@@ -1,18 +1,18 @@
 module.exports = {
     "position": {
-        "x": 0,
-        "y": 0
+        "x": 760,
+        "y": 250
     },
     "renderable": {
         "type": "rectangle",
         "visible": true,
-        "zIndex": 0
+        "zIndex": 1
     },
     "size": {
-        "width": 800,
-        "height": 600
+        "width": 20,
+        "height": 100
     },
     "color": {
-        "fill": "#668E8A"
-    }
+        "fill": "#E21B46"
+    },
 };

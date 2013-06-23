@@ -1,7 +1,7 @@
 module.exports = {
     "position": {
         "x": 20,
-        "y": 20
+        "y": 250
     },
     "renderable": {
         "type": "rectangle",
@@ -13,7 +13,7 @@ module.exports = {
         "height": 100
     },
     "color": {
-        "fill": "#3366FF"
+        "fill": "#D9F249"
     },
     "keyboard": {},
     "script": {

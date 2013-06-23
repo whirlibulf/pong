@@ -26,5 +26,6 @@ game.use("script", require("script-component"));
 
 game.create("background", require("./objects/background.js"));
 game.create("player", require("./objects/player.js"));
+game.create("computer", require("./objects/computer.js"));
 
 game.start();
