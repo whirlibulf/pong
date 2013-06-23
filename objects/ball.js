@@ -15,8 +15,8 @@ module.exports = {
         "fill": "#E21B46"
     },
     "velocity": {
-        "x": 100,
-        "y": 100
+        "x": 200,
+        "y": 200
     },
     "script": {
         "scripts": [require("../lib/ball.js")]
