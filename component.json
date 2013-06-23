@@ -26,6 +26,8 @@
     "objects/background.js",
     "objects/player.js",
     "objects/computer.js",
-    "lib/player.js"
+    "objects/ball.js",
+    "lib/player.js",
+    "lib/ball.js"
   ]
 }

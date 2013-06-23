@@ -13,6 +13,6 @@ module.exports = {
         "height": 100
     },
     "color": {
-        "fill": "#E21B46"
-    },
+        "fill": "#D9F249"
+    }
 };
