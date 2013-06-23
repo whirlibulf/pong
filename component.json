@@ -14,7 +14,9 @@
     "whirlibulf/color-component": "*",
     "whirlibulf/kinematics-system": "*",
     "whirlibulf/velocity-component": "*",
-    "whirlibulf/keyboard-system": "*"
+    "whirlibulf/keyboard-system": "*",
+    "whirlibulf/script-component": "*",
+    "whirlibulf/script-system": "*"
   },
   "development": {},
   "license": "MIT",
@@ -22,6 +24,7 @@
   "scripts": [
     "index.js",
     "objects/background.js",
-    "objects/player.js"
+    "objects/player.js",
+    "lib/player.js"
   ]
 }

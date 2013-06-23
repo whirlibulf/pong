@@ -15,5 +15,8 @@ module.exports = {
     "color": {
         "fill": "#3366FF"
     },
-    "keyboard": {}
+    "keyboard": {},
+    "script": {
+        "scripts": [require("../lib/player.js")]
+    }
 };
