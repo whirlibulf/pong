@@ -29,6 +29,7 @@
     "objects/ball.js",
     "lib/player.js",
     "lib/computer.js",
-    "lib/ball.js"
+    "lib/ball.js",
+    "lib/collision.js"
   ]
 }

@@ -15,10 +15,13 @@ module.exports = {
         "fill": "#E21B46"
     },
     "velocity": {
-        "x": 200,
+        "x": -200,
         "y": 200
     },
     "script": {
-        "scripts": [require("../lib/ball.js")]
+        "scripts": [
+            require("../lib/ball.js"),
+            require("../lib/collision.js")
+        ]
     }
 };
