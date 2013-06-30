@@ -20,6 +20,9 @@ module.exports = {
         "fill": "#D9F249"
     },
     "script": {
-        "scripts": [require("../lib/computer.js")]
+        "scripts": [
+            require("../lib/computer.js"),
+            require("../lib/collision.js")
+        ]
     }
 };

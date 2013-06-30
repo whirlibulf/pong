@@ -19,9 +19,6 @@ module.exports = {
         "y": 200
     },
     "script": {
-        "scripts": [
-            require("../lib/ball.js"),
-            require("../lib/collision.js")
-        ]
+        "scripts": [require("../lib/ball.js")]
     }
 };
