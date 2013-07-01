@@ -23,8 +23,8 @@ game.config("keyboard", {
 game.use(require("stats.js-system"));
 game.use(require("2d-canvas-system"));
 game.use(require("keyboard-system"));
-game.use(require("script-system"));
 game.use(require("kinematics-system"));
+game.use(require("script-system"));
 
 game.use("position", require("position-component"));
 game.use("renderable", require("renderable-component"));
