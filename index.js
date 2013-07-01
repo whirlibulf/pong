@@ -1,9 +1,4 @@
 var engine = require("engine");
-var Stats = require("stats.js-system");
-var Canvas = require("2d-canvas-system");
-var Keyboard = require("keyboard-system");
-var Script = require("script-system");
-var Kinematics = require("kinematics-system");
 
 var game = new engine.Game();
 
