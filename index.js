@@ -7,18 +7,24 @@ var Kinematics = require("kinematics-system");
 
 var game = new engine.Game();
 
-game.use(new Stats());
-game.use(new Canvas({
+game.config("fps", 60);
+
+game.config("canvas", {
     element: document.getElementById('game'),
     width: 800,
     height: 600,
     retina: true
-}));
-game.use(new Keyboard({
+});
+
+game.config("keyboard", {
     stop: ['up', 'down', 'left', 'right']
-}));
-game.use(new Script());
-game.use(new Kinematics());
+});
+
+game.use(require("stats.js-system"));
+game.use(require("2d-canvas-system"));
+game.use(require("keyboard-system"));
+game.use(require("script-system"));
+game.use(require("kinematics-system"));
 
 game.use("position", require("position-component"));
 game.use("renderable", require("renderable-component"));
