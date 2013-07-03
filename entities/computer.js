@@ -21,8 +21,8 @@ module.exports = {
     },
     "script": {
         "scripts": [
-            require("../lib/computer.js"),
-            require("../lib/collision.js")
+            require("../scripts/computer.js"),
+            require("../scripts/collision.js")
         ]
     }
 };

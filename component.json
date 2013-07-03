@@ -23,13 +23,13 @@
   "main": "index.js",
   "scripts": [
     "index.js",
-    "objects/background.js",
-    "objects/player.js",
-    "objects/computer.js",
-    "objects/ball.js",
-    "lib/player.js",
-    "lib/computer.js",
-    "lib/ball.js",
-    "lib/collision.js"
+    "entities/background.js",
+    "entities/player.js",
+    "entities/computer.js",
+    "entities/ball.js",
+    "scripts/player.js",
+    "scripts/computer.js",
+    "scripts/ball.js",
+    "scripts/collision.js"
   ]
 }

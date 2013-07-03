@@ -22,8 +22,8 @@ module.exports = {
     "keyboard": {},
     "script": {
         "scripts": [
-            require("../lib/player.js"),
-            require("../lib/collision.js")
+            require("../scripts/player.js"),
+            require("../scripts/collision.js")
         ]
     }
 };

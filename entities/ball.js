@@ -19,6 +19,6 @@ module.exports = {
         "y": 200
     },
     "script": {
-        "scripts": [require("../lib/ball.js")]
+        "scripts": [require("../scripts/ball.js")]
     }
 };
