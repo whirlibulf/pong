@@ -44,8 +44,10 @@ var game = engine.Boot({
 game.start(game.config("fps"));
 
 
+
 /*
  * We could also split the data into individual files for even more organization!
+
 var game = engine.Boot({
     "config":       require("./data/config.js"),
     "systems":      require("./data/systems.js"),
@@ -54,8 +56,11 @@ var game = engine.Boot({
 });
 */
 
+
+
 /*
  * If you were to create the game object procedurally, here's how you could do it:
+
 var game = new engine.Game();
 
 game.config("fps", 60);
