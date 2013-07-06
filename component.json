@@ -27,9 +27,9 @@
     "entities/player.js",
     "entities/computer.js",
     "entities/ball.js",
-    "scripts/player.js",
-    "scripts/computer.js",
-    "scripts/ball.js",
-    "scripts/collision.js"
+    "scripts/controls.js",
+    "scripts/ai.js",
+    "scripts/wallCollision.js",
+    "scripts/paddleCollision.js"
   ]
 }

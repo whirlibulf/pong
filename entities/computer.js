@@ -21,8 +21,8 @@ module.exports = {
     },
     "script": {
         "scripts": [
-            require("../scripts/computer.js"),
-            require("../scripts/collision.js")
+            require("../scripts/ai.js"),
+            require("../scripts/paddleCollision.js")
         ]
     }
 };

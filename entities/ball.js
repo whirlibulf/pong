@@ -19,6 +19,6 @@ module.exports = {
         "y": 200
     },
     "script": {
-        "scripts": [require("../scripts/ball.js")]
+        "scripts": [require("../scripts/wallCollision.js")]
     }
 };
