@@ -16,7 +16,8 @@ module.exports = {
             ballSize,
             ballVel,
             objPos,
-            objSize;
+            objSize,
+            distance;
 
         ballPos = this.get("ball", "position");
         ballSize = this.get("ball", "size").radius;
